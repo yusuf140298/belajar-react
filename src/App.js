@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+
+import ClickEvent from "./components/Materi/ClickEvent";
+import Component from "./components/Materi/Component";
+import LoopingList from "./components/Materi/LoopingList";
+import UseState from "./components/Materi/UseState";
+
 
 function App() {
+
+  // output dinamic whileyou
+
+  
+  const Nama ="Saya Yusuf Dinamic"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <h2>nama ku adalah yusuf</h2>
+      <h2>{Nama}</h2>
+      <Component />
+      <ClickEvent />
+      <UseState />
+      <LoopingList />      
+     </div>
   );
 }
 
