@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "title": "Yusuf",
+      "Kelas": "A9",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Azam",
+      "Kelas": "A3"
+    },
+    {
+      "id": 3,
+      "title": "Teguh",
+      "Kelas": "A2"
+    },
+    {
+      "id": 4,
+      "title": "Ingga",
+      "Kelas": "A1"
+    },
+    {
+      "title": "yusuf",
+      "Kelas": "a5",
+      "id": 5
+    },
+    {
+      "title": "sd",
+      "Kelas": "das",
+      "id": 6
+    }
+  ]
+}
